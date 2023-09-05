@@ -30,25 +30,3 @@ export default function App() {
     </>
   );
 }
-
-//Testing export and importing multiple components from the same file
-
-function AiText() {
-  return (
-    <>
-      <p>
-        Norway is a beautiful country with stunning natural scenery and rich
-        cultural heritage. It is home to the world’s longest road tunnel, the
-        largest glacier in mainland Europe, and the Nobel Peace Prize.
-      </p>
-    </>
-  );
-}
-//Displays text found in function AiText
-export function Paragraph() {
-  return (
-    <>
-      <AiText />
-    </>
-  );
-}
